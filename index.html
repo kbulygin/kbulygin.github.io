@@ -1,1 +1,737 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Булыгин Кирилл Александрович</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body style="zoom: 150%">
+<div class="document" id="id1">
+<h1 class="title">Булыгин Кирилл Александрович</h1>
+
+<div class="contents topic" id="id2">
+<p class="topic-title first">Оглавление</p>
+<ul class="simple">
+<li><a class="reference internal" href="#id3" id="id31">Работа</a></li>
+<li><a class="reference internal" href="#id4" id="id32">Образование</a><ul>
+<li><a class="reference internal" href="#id5" id="id33">Основное</a></li>
+<li><a class="reference internal" href="#id8" id="id34">Онлайн-курсы</a></li>
+<li><a class="reference internal" href="#id9" id="id35">Конкурсы</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id11" id="id36">Публикации</a><ul>
+<li><a class="reference internal" href="#id12" id="id37">Статьи</a></li>
+<li><a class="reference internal" href="#id17" id="id38">Конференции</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id23" id="id39">Контакты</a></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h1><a class="toc-backref" href="#id31">Работа</a></h1>
+<ul class="simple">
+<li>Разработчик веб-приложения для помощи в пополнении словарного запаса
+при изучении иностранного языка (собственный проект; с августа 2016 г.).</li>
+<li>Частный преподаватель (<a class="reference external" href="http://chel.repetitors.info/repetitor/?p=BulyginKA">репетитор</a>) по программированию, информатике и
+математике (в интенсивном режиме с мая 2015 г. по июнь 2016 г.).</li>
+<li>ЗАО «Гранит-7»
+(теперь АО «<a class="reference external" href="http://hh.ru/employer/1213205">Морские неакустические комплексы и системы</a>»),
+отдел разработки встроенного программно-математического обеспечения:
+инженер (программирование, цифровая схемотехника; с марта 2014 г. по сентябрь 2015 г.).</li>
+<li><a class="reference external" href="http://www.ifmo.ru/">Университет ИТМО</a>, <a class="reference external" href="http://cse.ifmo.ru/">кафедра вычислительной техники</a>:
+«инженер-исследователь» (с декабря 2012 г. по июнь 2015 г.):<ul>
+<li>преподавание курсов по встроенным системам (лабораторные работы,
+лекции, семинары; 2012–2014 гг.);</li>
+<li>инженерно-исследовательская работа (и публикации) в рамках собственных
+проектов.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h1><a class="toc-backref" href="#id32">Образование</a></h1>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id33">Основное</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.ifmo.ru/">Университет ИТМО</a>
+(Санкт-Петербургский национальный исследовательский университет
+информационных технологий, механики и оптики),
+<a class="reference external" href="http://cse.ifmo.ru/">кафедра вычислительной техники</a>
+(теперь основная кафедра факультета программной инженерии и компьютерной
+техники «мегафакультета» компьютерных технологий и управления),
+направление подготовки «Информатика и вычислительная техника»:<ul>
+<li>Магистратура
+(программа «<a class="reference external" href="http://embedded.ifmo.ru/">Проектирование встроенных вычислительных систем</a>»,
+230100.13.68) (2012–2014, с отличием).<ul>
+<li>Тема магистерской диссертации: «Средства объектно-ориентированного
+описания цифровых схем» (расширяемый пользователем Verilog-подобный язык
+и соответствующий транслятор). <a class="reference internal" href="#nivkr-mag">*</a></li>
+</ul>
+</li>
+<li>Бакалавриат (2008–2012, с отличием).<ul>
+<li>Тема бакалаврской работы: «Автоматизированное преобразование словарей
+в формат DSL» (средство создания словарей для Lingvo с помощью
+пользовательских DOM-шаблонов вместо текстовой обработки). <a class="reference internal" href="#nivkr-bak">**</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference external" href="http://www.fml31.ru/">Физико-математический лицей №31 г. Челябинска</a>, класс информатики
+(2006–2008).</li>
+<li><a class="reference external" href="http://www.l-11.ru/">Лицей №11 г. Челябинска</a> (1998–2006).<ul>
+<li>Физико-математический класс (2004–2006).</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id34">Онлайн-курсы</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.hackerrank.com/kbulygin">HackerRank</a> (с октября 2015 г.)</li>
+<li><a class="reference external" href="https://www.udacity.com/course/software-debugging--cs259">Udacity: Software Debugging: Automating the Boring Tasks</a> (Spring 2015)</li>
+<li>( <a class="reference external" href="https://www.coursera.org/course/matlab">Coursera: Introduction to Programming with MATLAB (Spring 2015)</a> )</li>
+<li>( <a class="reference external" href="https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-2">Linux Foundation (edX): Introduction to Linux</a> (Spring 2015) (<a class="reference external" href="https://verify.edx.org/cert/6fc3b6193b524f728396483013ce59e6">certificateLFS101x2</a>) )</li>
+<li><a class="reference external" href="https://class.coursera.org/vlsicad-003">Coursera: VLSI CAD: Logic to Layout (Spring 2015)</a></li>
+<li><a class="reference external" href="https://class.coursera.org/ml-003/class/index">Coursera: Machine Learning (Spring 2013)</a></li>
+<li>( <a class="reference external" href="https://www.edx.org/courses/MITx/6.00x/2012_Fall/info">MITx: 6.00x Introduction to Computer Science and Programming (Fall 2012)</a> (<a class="reference external" href="https://verify.edx.org/downloads/bf4d237dea304668ace179b5dabee85d/Certificate.pdf">certificate600x</a>) )</li>
+<li><a class="reference external" href="https://www.edx.org/courses/MITx/6.002x/2012_Fall/info">MITx: 6.002x Circuits and Electronics (Fall 2012)</a> (<a class="reference external" href="https://verify.edx.org/downloads/7706d97d8aa14590816c75d335956fa6/Certificate.pdf">certificate6002x</a>)</li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id35">Конкурсы</a></h2>
+<ul class="simple" id="nivkr-mag">
+<li><em>2014, июль</em>: Победитель конкурса на лучшую научно-исследовательскую выпускную квалификационную работу среди магистров Университета ИТМО 2014 года (<a class="reference external" href="http://science.ifmo.ru/ru/stat/228/">http://science.ifmo.ru/ru/stat/228/</a>).</li>
+<li><em>2014, февраль</em>: Победитель «Своей игры» по информатике
+в Университете ИТМО.</li>
+<li><em>2013, осенний семестр:</em>
+Стипендиат по итогам конкурса на право получения повышенной
+государственной академической стипендии (научно-исследовательская
+деятельность; <a class="reference external" href="http://www.ifmo.ru/news/3432/">http://www.ifmo.ru/news/3432/</a>).</li>
+<li><em>2013/2014 уч. г.:</em>
+Стипендиат Президента РФ
+(<a class="reference external" href="http://www.edu.ru/db-mon/mo/Data/d_13/m1029.html">http://www.edu.ru/db-mon/mo/Data/d_13/m1029.html</a>).</li>
+<li><em>2013, весенний семестр:</em>
+Стипендиат по итогам конкурса на право получения повышенной
+государственной академической стипендии (учебная и
+научно-исследовательская деятельность; <a class="reference external" href="http://www.ifmo.ru/news/2788/">http://www.ifmo.ru/news/2788/</a>).</li>
+<li><em>2012/2013 уч. г.:</em>
+Стипендиат Президента РФ (<a class="reference external" href="http://www.ifmo.ru/news/2547/">http://www.ifmo.ru/news/2547/</a>,
+<a class="reference external" href="http://cs.ifmo.ru/?p=1863">http://cs.ifmo.ru/?p=1863</a>).</li>
+<li><em>2012, осенний семестр:</em>
+Стипендиат по итогам конкурса на право получения повышенной
+государственной академической стипендии (учебная и
+научно-исследовательская деятельность; <a class="reference external" href="http://www.ifmo.ru/news/2524/">http://www.ifmo.ru/news/2524/</a>).</li>
+</ul>
+<ul class="simple" id="nivkr-bak">
+<li><em>2012, август:</em>
+Победитель конкурса на лучшую научно-исследовательскую выпускную
+квалификационную работу среди бакалавров университета ИТМО 2012 года
+(<a class="reference external" href="http://www.ifmo.ru/news/2453/">http://www.ifmo.ru/news/2453/</a>, <a class="reference external" href="http://cs.ifmo.ru/?p=1868">http://cs.ifmo.ru/?p=1868</a>).</li>
+<li><em>2012, май:</em>
+«Абсолютный победитель» по итогам открытой студенческой олимпиады по
+информатике и вычислительной технике, организованной кафедрой
+вычислительной техники (<a class="reference external" href="http://cs.ifmo.ru/?p=1697">http://cs.ifmo.ru/?p=1697</a>).</li>
+<li><em>2012, весенний семестр:</em>
+Стипендиат по итогам конкурса на право получения повышенной
+государственной академической стипендии (учебная и
+научно-исследовательская деятельность; <a class="reference external" href="http://www.ifmo.ru/news/2342/">http://www.ifmo.ru/news/2342/</a>).</li>
+<li><em>2012, весенний семестр:</em>
+Стипендиат Президента РФ (<a class="reference external" href="http://www.ifmo.ru/news/2296/">http://www.ifmo.ru/news/2296/</a>,
+<a class="reference external" href="http://cs.ifmo.ru/?p=1650">http://cs.ifmo.ru/?p=1650</a>).</li>
+<li><em>2011, ноябрь:</em>
+«Победитель деловой игры GradeGames по направлению “IT и
+программирование”» (<a class="reference external" href="http://gradegames.ru">http://gradegames.ru</a>).</li>
+<li><em>2010, май:</em>
+«Лучший студент второго курса» по итогам открытой студенческой
+олимпиады по информатике и вычислительной технике, организованной
+кафедрой вычислительной техники (<a class="reference external" href="http://cs.ifmo.ru/?p=643">http://cs.ifmo.ru/?p=643</a>).</li>
+<li><em>2004–2007:</em>
+Победитель Всероссийской дистанционной эвристической олимпиады «<a class="reference external" href="http://www.google.com/search?q=site:eidos.ru+%D0%91%D1%83%D0%BB%D1%8B%D0%B3%D0%B8%D0%BD+%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB">Эйдос</a>»
+по информатике, лауреат олимпиад по физике и русскому языку.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id11">
+<h1><a class="toc-backref" href="#id36">Публикации</a></h1>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id37">Статьи</a></h2>
+<div class="section" id="id13">
+<h3>2011</h3>
+<ol class="arabic simple">
+<li>Бессмертный И.А., Булыгин К.А. Многоагентный подход к решению задач
+неинформированного поиска // Научно-технический вестник СПбГУ ИТМО. –
+2011. – Вып. №4 (74). – Компьютерные системы и информационные
+технологии. – С.98-101. – ISSN 1819-222X.</li>
+<li>Богатырев В.А., Булыгин К.А., Пинкевич В.Ю. Векторная оптимизация с
+программированием в среде Mathcad при комплексировании машин и
+агрегатов // Технико-технологические проблемы сервиса. –
+Санкт-Петербург: СПбГУСЭ, НИИ техники и технологии сервиса, 2011. –
+Вып. №4 (18). – Методические основы совершенствования проектирования и
+производства технических систем. – С.48-54. – ISSN 2074-1146.</li>
+</ol>
+</div>
+<div class="section" id="id14">
+<h3>2012</h3>
+<ol class="arabic simple" start="3">
+<li>Булыгин К.А., Пинкевич В.Ю., Богатырев В.А. Cредства векторной
+оптимизации структуры кластеров в среде Mathcad на основе метода STEM
+// Научно-технический вестник информационных технологий, механики и
+оптики. – 2012. – Вып. №4 (80) . – Компьютерные системы и
+информационные технологии. – С.70-74. – ISSN 2226-1494.</li>
+<li>Богатырев В.А., Булыгин К.А., Пинкевич В.Ю. и др. Векторная
+оптимизация защищенных центров обработки данных в среде Mathcad //
+Информационные системы и технологии: теория и практика: сб. науч. тр.,
+вып. 4. – СПб.: СПбГЛТУ, 2012. – С.20-27. – ISBN 978-5-9239-0474-1.</li>
+<li>Булыгин К.А. Расширяемое программное средство для преобразования
+произвольных словарей в формат DSL // Всероссийский конкурс
+научно-исследовательских работ студентов и аспирантов в области
+информатики и информационных технологий:
+сб. науч. работ: в 3 т. – Белгород: ИД «Белгород», 2012. –
+Т. 2. – С.519-520. – ISBN 978-5-9571-0537-4. –
+URL: <a class="reference external" href="http://meta-analysis.bsu.edu.ru/file.php/1/Contest_2012_1/Tom2.pdf">http://meta-analysis.bsu.edu.ru/file.php/1/Contest_2012_1/Tom2.pdf</a>
+(дата обращения: 21.04.2013).</li>
+<li>Булыгин К.А. Автоматизированное преобразование словарей в формат
+DSL // Аннотированный сборник научно-исследовательских выпускных
+квалификационных работ бакалавров НИУ ИТМО. – СПб.: НИУ ИТМО, 2012. –
+С.17-19. – ISBN 978-5-7577-0418-0.</li>
+</ol>
+</div>
+<div class="section" id="id15">
+<h3>2014</h3>
+<ol class="arabic simple" start="7">
+<li>Булыгин К.А. Средства объектно-ориентированного описания цифровых
+схем // Аннотированный сборник научно-исследовательских выпускных
+квалификационных работ магистров Университета ИТМО. –
+СПб.: Университет ИТМО, 2014. – С.30-35. – ISBN 978-5-7577-0479-1.<ul>
+<li>Английская версия: Kirill A. Bulygin.
+Tool for Object-Oriented Description of Digital Circuits. –
+URL: <a class="reference external" href="http://research.ifmo.ru/file/stat/247/kirill_a._bulygin.pdf">http://research.ifmo.ru/file/stat/247/kirill_a._bulygin.pdf</a>
+(дата обращения: 10.10.2016).</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="id16">
+<h3>2015</h3>
+<ol class="arabic simple" start="8">
+<li>Булыгин К.А. Метод отладки распределённых встроенных вычислительных
+систем реального времени с помощью временных диаграмм //
+Сборник статей III международной научно-практической конференции
+«Современное состояние и перспективы развития технических наук» (Уфа),
+секция «Информатика, вычислительная техника и управление». –
+URL: <a class="reference external" href="http://os-russia.com/SBORNIKI/TEHN-3.pdf">http://os-russia.com/SBORNIKI/TEHN-3.pdf</a>. – С.9-12. –
+ISBN 978-5-906781-60-4.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id38">Конференции</a></h2>
+<div class="section" id="id18">
+<h3>2011</h3>
+<ol class="arabic simple">
+<li>IV Межвузовская научно-практическая конференция молодых ученых и
+специалистов «Современные проблемы экономики и менеджмента предприятий
+лесного комплекса» (Санкт-Петербургский государственный
+лесотехнический университет), 30.11.2011 г.: «Система функций для
+решения задач векторной оптимизации в среде Mathcad» (Булыгин К.А.,
+Пинкевич В.Ю., научный руководитель: д.т.н., профессор Богатырев В.А.).<ul>
+<li>Тезисы доклада: Современные проблемы экономики и менеджмента
+предприятий лесного комплекса: труды IV межвузовской
+научно-практической конференции молодых ученых и специалистов. – СПб.:
+СПбГЛТУ, 2012. – С.49-55. – ISBN 978-5-9239-0454-3.</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="id19">
+<h3>2012</h3>
+<ol class="arabic simple" start="2">
+<li>XLI научная и учебно-методическая конференция СПбНИУ ИТМО,
+30.01.2012 г.: «Векторная оптимизация отказоустойчивого кластера
+межсетевых экранов на основе метода STEM» (Булыгин К.А.,
+Кудрявцева В.Ю., Попова М.В., Пинкевич В.Ю., Богатырев В.А.).</li>
+<li>I Всероссийский конгресс молодых учёных (СПбНИУ ИТМО), 10-13 апреля
+2012 г.: «Расширение пакета Mathcad для поддержки принятия решений при
+многокритериальной оптимизации» (Булыгин К.А., Пинкевич В.Ю., научный
+руководитель: д.т.н., профессор Богатырев В.А.) <em>(диплом за лучший
+доклад на секции «Информационные технологии»)</em>.<ul>
+<li>Тезисы доклада: Сборник тезисов докладов конгресса молодых ученых,
+выпуск 1. – СПб: НИУ ИТМО, 2012. – С.75-76.</li>
+</ul>
+</li>
+<li>XIX Всероссийская научно-методическая конференция «Телематика'2012»
+(Санкт-Петербург), 25-28 июня 2012 г.: «Объектно-ориентированный
+подход к преобразованию словарей в формат DSL» (Булыгин К.А.) (Секция A:
+«Информационные ресурсы и технологии в образовании») <em>(диплом за
+лучший научно-исследовательский доклад студента)</em>.<ul>
+<li>Тезисы доклада: Труды XIX Всероссийской научно-методической
+конференции «Телематика'2012». Том 1. Секция А. – СПб., 2012. – С.
+150-151. – ISBN 978-5-7577-0404-3. – URL:
+<a class="reference external" href="http://tm.ifmo.ru/tm2012/db/doc/get_thes.php?id=140">http://tm.ifmo.ru/tm2012/db/doc/get_thes.php?id=140</a>
+(дата обращения: 14.06.2012).</li>
+</ul>
+</li>
+<li>XIII Санкт-Петербургская международная конференция «Региональная
+информатика “РИ-2012”», 24-26 октября 2012 г.: «Сервер доступа к
+сенсорным сетям» (Богатырев В.А., Булыгин К.А.) (секция 3:
+«Телекоммуникационные сети и технологии»).<ul>
+<li>Тезисы доклада:
+Региональная информатика (РИ-2012). Юбилейная XIII Санкт-Петербургская
+международная конференция «Региональная информатика (РИ-2012)».
+Санкт-Петербург, 24-26 октября 2012 г.: Материалы конференции. /
+СПОИСУ. – СПб, 2012. – С. 57.</li>
+</ul>
+</li>
+<li>IV Научно-практическая конференция молодых ученых «Вычислительные
+системы и сети (Майоровские чтения)» (СПбНИУ ИТМО), 12-14 декабря 2012
+г.: «Средства поддержки расширенного анализа расписаний,
+опубликованных в Интернете, с помощью языка Пролог», «Обзор подходов к
+созданию специализированных параллельных вычислителей на базе FPGA»
+(Булыгин К.А.).</li>
+</ol>
+</div>
+<div class="section" id="id20">
+<h3>2013</h3>
+<ol class="arabic simple" start="7">
+<li>II Всероссийский конгресс молодых ученых (СПбНИУ ИТМО), 9-12 апреля
+2013 г.: «Разработка высокопараллельной обучающейся нейронной сети на
+ПЛИС» (Булыгин К.А.) (секция «Информационные системы и технологии»).<ul>
+<li>Тезисы доклада: Сборник тезисов докладов конгресса молодых ученых,
+Выпуск 1. Труды молодых ученых / Главный редактор д.т.н., проф. В.О.
+Никифоров. – СПб: НИУ ИТМО, 2013. – С. 7-8. – ISBN 978-5-7577-0433-3.
+– URL: <a class="reference external" href="http://kmu.ifmo.ru/file/stat/12/v_tez_1_2013.pdf">http://kmu.ifmo.ru/file/stat/12/v_tez_1_2013.pdf</a> (дата
+обращения: 02.09.2013).</li>
+</ul>
+</li>
+<li>XX Всероссийская научно-методическая конференция «Телематика'2013»
+(Санкт-Петербург), 24-27 июня 2013 г.: «Средства синтеза оптимальных
+дисциплин обслуживания при функциональном проектировании
+информационно-управляющих систем» (Булыгин К.А.) (Секция А:
+«Информационные ресурсы и технологии в образовании»).<ul>
+<li>Тезисы доклада: Труды XIX Всероссийской научно-методической
+конференции «Телематика’2013». Том 1. Секция А. – СПб., 2013. – С.
+152-153. – ISBN 978-5-7577-0435-7. – URL:
+<a class="reference external" href="http://tm.ifmo.ru/tm2013/db/doc/get_thes.php?id=241">http://tm.ifmo.ru/tm2013/db/doc/get_thes.php?id=241</a> (дата обращения:
+22.07.2013).</li>
+</ul>
+</li>
+<li>V Научно-практическая конференция молодых ученых «Вычислительные
+системы и сети (Майоровские чтения)» (НИУ ИТМО), 5-6 декабря 2013 г.:
+«Методы автоматизации проектирования и тестирования аппаратных модулей
+для систем на кристалле» (Булыгин К.А.) (секция «Встроенные
+вычислительные системы и системы на кристалле»).</li>
+</ol>
+</div>
+<div class="section" id="id21">
+<h3>2014</h3>
+<ol class="arabic simple" start="10">
+<li>XLIII научная и учебно-методическая конференция НИУ ИТМО, 28-31
+января 2014 г.: «Язык описания аппаратуры и её графического
+представления» (Булыгин К.А.) (секция 4, подсекция 15: «Сети ЭВМ и
+информационные технологии»).</li>
+<li>III Всероссийский конгресс молодых ученых (СПбНИУ ИТМО), 8-11
+апреля 2014 г.: «Объектно-ориентированное описание цифровых схем»
+(Булыгин К.А.) (секция «Информационные технологии»).<ul>
+<li>Тезисы доклада: Сборник тезисов докладов конгресса молодых ученых,
+Выпуск 1. – СПб: НИУ ИТМО, 2014. – С. 130-131. – URL:
+<a class="reference external" href="http://faculty.ifmo.ru/ntr/files/147Sb_tez1.pdf">http://faculty.ifmo.ru/ntr/files/147Sb_tez1.pdf</a> (дата обращения:
+20.05.2014).</li>
+</ul>
+</li>
+<li>XXI Всероссийская научно-методическая конференция «Телематика'2014»
+(Санкт-Петербург), 23-26 июня 2014 г.: «Средства
+объектно-ориентированного описания цифровых схем» (Булыгин К.А.)
+(секция «Информационные технологии»).<ul>
+<li>Тезисы доклада: Сборник трудов молодежной секции
+«Информационные технологии» в рамках XXI Всероссийской
+научно-методической конференции «Телематикаʹ2014». –
+СПб: Университет ИТМО, 2014. – С.20-21.</li>
+</ul>
+</li>
+<li>XIII Санкт-Петербургская международная конференция «Региональная
+информатика “РИ-2014”», 29-31 октября 2014 г.: «Разработка средств
+поддержки описания вычислительной аппаратуры на пользовательском
+языке» (Булыгин К.А.) (секция 16: «Информационные технологии в
+сервисе»).<ul>
+<li>Тезисы доклада:
+Региональная информатика (РИ-2014). XIV Санкт-Петербургская
+международная конференция «Региональная информатика (РИ-2014)».
+Санкт-Петербург, 29-31 октября 2014 г.: Материалы конференции. /
+СПОИСУ. – СПб, 2014. – С. 398-399.</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="id22">
+<h3>2015</h3>
+<ol class="arabic simple" start="14">
+<li>XLIV научная и учебно-методическая конференция Университета ИТМО,
+3-6 февраля 2015 г.: «Подходы к автоматизированному проектированию
+многоверсионных вычислительных систем» (Булыгин К.А.)
+(секция 4, подсекция 16: «Сети ЭВМ и информационные технологии»).</li>
+<li>IV Всероссийский конгресс молодых ученых (Университет ИТМО), 7-10 апреля
+2015 г.: «Генерация кода на языке описания аппаратуры по исполняемой
+спецификации» (Булыгин К.А.) (секция «Информационные технологии»).</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="id23">
+<h1><a class="toc-backref" href="#id39">Контакты</a></h1>
+<ul class="simple">
+<li>Gmail: kirill.bulygin</li>
+<li>Skype: kbulygin</li>
+<li>ВК: <a class="reference external" href="http://vk.com/kbulygin">http://vk.com/kbulygin</a></li>
+</ul>
+<p><em>Последнее изменение страницы:</em> 2016-12-20 15:13 (UTC+5).</p>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10687276;
+var sc_invisible=1;
+var sc_security="e16283f9";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics tool" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10687276/0/e16283f9/1/"
+alt="shopify analytics tool"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></div>
+</div>
+</body>
+</html>
